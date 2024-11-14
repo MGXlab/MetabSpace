@@ -1,4 +1,4 @@
-#Anneli graph
+#original code by Anneli Kruve, modified by Pilleriin Peets
 
 library(tidyverse)
 library(extrafont)
