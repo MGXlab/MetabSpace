@@ -1,3 +1,5 @@
+#Created by Pilleriin Peets. originally for MS2Tox project under Kruvelab, Stockholm University
+
 library(tidyverse)
 library(rcdklibs)
 library(rcdk)
@@ -5,33 +7,6 @@ library(rcdk)
 
 ##Code takes in table with two columns: id, smiles
 ##Function returns table with all substructure, maccs, pubchem, Klekota Roth, customSMARTS and ringsystems fingerprints
-
-# setwd("C:/Users/pipe0902/Kruvelab/Anneli Kruve - Toxicity project data/data_csv for coding")
-# form_smiles <- read_delim("CompTox_all_formula_smile.txt", delim = ";") %>%
-#   select(dtxsid, SMILES_Desalted)
-# 
-# 
-# setwd("C:/Users/pipe0902/Kruvelab/Anneli Kruve - Toxicity project data/data_csv for coding/FinalModels")
-# filelist <- c("EC50_algae_tox_20210910.txt", "EC50_Waterflea_tox_20210910.txt",
-#               "EC50_Waterflea2_tox_20210910.txt","LC50_threefish_tox_20210910.txt",
-#               "LC50_Waterflea_tox_20210910.txt", "threefish_tox_20210519.txt")
-# dtxtable <- tibble()
-# for (file in filelist){
-#   data <- read_delim(file, delim = ",") %>%
-#     select(dtxsid)
-#   dtxtable <- dtxtable %>%
-#     bind_rows(data) %>%
-#     unique()
-# }
-
-# compoundslist <- dtxtable %>%
-#   left_join(form_smiles) %>%
-#   na.omit()
-# names(compoundslist) <- c("id", "SMILES")
-
-
-#compounds column SMILES
-files <- "C:/Users/pipe0902/Kruvelab/Anneli Kruve - Toxicity project data/data_csv for coding/CalculatedFingerprints"
 
 Fingerprint_calc <- function(compoundslist, folderwithFPinfo){
   library(rcdklibs)
