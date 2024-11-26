@@ -23,6 +23,6 @@ The following workflow describes the general idea or the whole metabolomics data
 CCV_article.R  -> Codes for manuscript "". 
 Functions_SIRIUS_DataAnalysis.R -> gathers functions to get data from SIRIUS calculations. Getting annotation tables and confidence scores into one table. 
 
-## Data availability
+## Data
 
 ## Literature
