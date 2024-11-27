@@ -16,9 +16,9 @@ The following workflow describes the general idea or the whole metabolomics data
 
 **Step 4** illustrates how with this approach we are now able to compare the chemical space of compounds more efficiently. 
 
-![github_metabspace](https://github.com/user-attachments/assets/0ed59a1d-0428-49d8-aa86-c203976e6764)]
+![github_metabspace](https://github.com/user-attachments/assets/0ed59a1d-0428-49d8-aa86-c203976e6764)
 
-## Codes
+## Code
 
 CCV_article.R  -> Codes for manuscript "". 
 Functions_SIRIUS_DataAnalysis.R -> gathers functions to get data from SIRIUS calculations. Getting annotation tables and confidence scores into one table. 
