@@ -16,7 +16,8 @@ The following workflow describes the general idea or the whole metabolomics data
 
 **Step 4** illustrates how with this approach we are now able to compare the chemical space of compounds more efficiently. 
 
-![github_metabspace](https://github.com/user-attachments/assets/0ed59a1d-0428-49d8-aa86-c203976e6764)
+![github_metabspace](https://github.com/user-attachments/assets/9ce45b7c-b3a6-49c2-9e64-d5f5a8a82c86)
+
 
 ## Code
 
