@@ -3,6 +3,8 @@
 This MetabSpace directory contains codes, data, and instructions for using the "chemical characteristics vector" approach for capturing the chemical space of biomes and mapping them using LC-MS/MS data. 
 The main article related to MetabSpace is "*insertwhenarticleout*"
 
+Data for the article is in Zenodo: "*Add zenodo doi*"
+
 
 ## General description 
 
@@ -21,9 +23,16 @@ The following workflow describes the general idea or the whole metabolomics data
 
 ## Code
 
-CCV_article.R  -> Codes for manuscript "". 
+CCV_article.R  -> Codes for gathering SIRIUS chemical characteristics and calculating averaged CCVs.
+CCV_article_figures.R  -> Code for creating Figures for the article and re-analyzing the data. Uses data from Zenodo.
+
 Functions_SIRIUS_DataAnalysis.R -> gathers functions to get data from SIRIUS calculations. Getting annotation tables and confidence scores into one table. 
 
 ## Data
 
+Most data is available in Zenodo. For additional data, please contact Pilleriin Peets (pilleriin.peets@gmail.com, pilleriin.peets@ut.ee)
+
 ## Literature
+
+For the article Peets et al. 202*, metabolomics data from the Earth Microbiome Project was used:
+*Shaffer, J.P., Nothias, LF., Thompson, L.R. et al. Standardized multi-omics of Earth’s microbiomes reveals microbial and metabolite diversity. Nat Microbiol 7, 2128–2150 (2022). https://doi.org/10.1038/s41564-022-01266-x*
