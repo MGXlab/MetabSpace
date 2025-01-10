@@ -1,5 +1,10 @@
 #Pilleriin Peets (pilleriin.peets@gmail.com)
 
+#codes for Chemical characteristics vectors from SIRIUS calculated data
+
+#Data in Zenodo connected to the article
+#Zenodo doi: 
+
 library(tidyverse)
 library(data.table)
 library(umap)
@@ -17,7 +22,7 @@ color_vector_empo_womix_new <- c("#9467bd","#d62728","#e377c2","#ff7f0e",
                                  "#FFCC33","#bcbd22","#2ca02c","#CC9966",
                                  "#660000","#999999","#3300CC")
 
-#--------Function to get MF and CC for samples from SIRIUS5 calculated files-----------
+#--------Function to get MFP and CC for samples from SIRIUS5 calculated files-----------
 
 MFtable_SIRIUS5 <- function(folderwithSIRIUSfiles){
   
@@ -200,9 +205,8 @@ for(samplename in samplelist){
 
 #--------PCA, UMAP, metrics for data-----------------
 
-#can I add a github link?
+#add correct folder
 setwd("C:/Users/pille/OneDrive - Friedrich-Schiller-Universität Jena/JenaUniversity/Manuscripts/EMP_article/Data_CCV")
-#Supplementary files SI2-SI13 have all tested CCV data
 file <- "SI2_MF_average_all_variables.csv"
 
 data <- fread(file)
@@ -283,7 +287,6 @@ ch <- metrics$ch
 
 #--------RFE for selecting important features-----------------
 
-setwd("C:/Users/pille/OneDrive - Friedrich-Schiller-Universität Jena/JenaUniversity/Manuscripts/EMP_article/Data_CCV")
 #Supplementary files SI2-SI13 have all tested CCV data
 file <- "SI2_MF_average_all_variables.csv"
 
