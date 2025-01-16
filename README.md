@@ -35,4 +35,5 @@ Most data is available in Zenodo. For additional data, please contact Pilleriin 
 ## Literature
 
 For the article Peets et al. 202*, metabolomics data from the Earth Microbiome Project was used:
+
 *Shaffer, J.P., Nothias, LF., Thompson, L.R. et al. Standardized multi-omics of Earth’s microbiomes reveals microbial and metabolite diversity. Nat Microbiol 7, 2128–2150 (2022). https://doi.org/10.1038/s41564-022-01266-x*
