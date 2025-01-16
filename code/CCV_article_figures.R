@@ -509,7 +509,7 @@ print(var_plot)
 dev.off()
 
 
-#-----------Figure S6,S8-----------------
+#-----------Figure S6,S7,S9-----------------
 
 #Figure S6
 folder <- "C:/Users/pille/OneDrive - Friedrich-Schiller-Universität Jena/JenaUniversity/Manuscripts/EMP_article/FinalZenodoData"
@@ -517,6 +517,7 @@ setwd(folder)
 dir(folder, pattern = ".csv")
 
 data <- fread("distalgut_groupanalysis.csv") %>%
+  #dplyr::filter(Canop %in% c("Canop278")) %>%
   mutate(cluster = as.character(cluster))
 
 var_plot <- ggplot(data = data, 
@@ -542,7 +543,28 @@ print(var_plot)
 dev.off()
 
 
-#Figure S8
+#Fig S7
+correlation <- data %>%
+  left_join(peakcount)  #peakcount from Fig2b
+plot <- ggplot(data = correlation) +
+  geom_point(mapping = aes(x = peakcount,
+                           colour = cluster,
+                           #size = mz,
+                           y = average),
+             size = 5,
+             alpha = 0.7) +
+  my_theme +
+  facet_wrap(~Canop, scales = c("free_y")) +
+  scale_color_manual(values = c("#6A3D9A","#E31A1C")) + 
+  theme(panel.grid.minor = element_line(color = "grey",
+                                        size = 0.2,
+                                        linetype = 1))
+plot
+
+
+
+
+#Figure S9
 folder <- "C:/Users/pille/OneDrive - Friedrich-Schiller-Universität Jena/JenaUniversity/Manuscripts/EMP_article/FinalZenodoData"
 setwd(folder)
 dir(folder, pattern = ".csv")
@@ -568,6 +590,6 @@ nametable <- data %>%
   unique()
 
 setwd(paste(admin, "Manuscripts/EMP_article/Graphs/svg", sep = "/"))
-svg("CC_S8_origbig.svg", width = 15, height = 30, pointsize = 1)
+svg("FigS6extra.svg", width = 15, height = 15, pointsize = 1)
 print(var_plot)
 dev.off()
