@@ -3,7 +3,7 @@
 This MetabSpace directory contains codes, data, and instructions for using the "chemical characteristics vector" approach for capturing the chemical space of biomes and mapping them using LC-MS/MS data. 
 The main article related to MetabSpace is "*insertwhenarticleout*"
 
-Data for the article is in Zenodo: "*(https://doi.org/10.5281/zenodo.14506250)*"
+Data for the article is in Zenodo: (https://doi.org/10.5281/zenodo.14506250)
 
 
 ## General description 
