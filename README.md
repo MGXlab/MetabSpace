@@ -30,7 +30,7 @@ Functions_SIRIUS_DataAnalysis.R -> gathers functions to get data from SIRIUS cal
 
 ## Data
 
-Most data is available in Zenodo. For additional data, please contact Pilleriin Peets (pilleriin.peets@gmail.com, pilleriin.peets@ut.ee)
+Most data is available in Zenodo (https://doi.org/10.5281/zenodo.14506250). For additional data, please contact Pilleriin Peets (pilleriin.peets@gmail.com, pilleriin.peets@ut.ee)
 
 ## Literature
 
