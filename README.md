@@ -1,7 +1,7 @@
 # MetabSpace
 
 This MetabSpace directory contains codes, data, and instructions for using the "chemical characteristics vector" approach for capturing the chemical space of biomes and mapping them using LC-MS/MS data. 
-The main article related to MetabSpace is "*insertwhenarticleout*"
+The preprint for the main article related to MetabSpace is "*Chemistry-based vectors map the chemical space of natural biomes from untargeted mass spectrometry data*", https://doi.org/10.1101/2025.01.22.634253
 
 Data for the article is in Zenodo: (https://doi.org/10.5281/zenodo.14506250)
 
@@ -18,7 +18,8 @@ The following workflow describes the general idea or the whole metabolomics data
 
 **Step 4** illustrates how with this approach we are now able to compare the chemical space of compounds more efficiently. 
 
-![github_metabspace](https://github.com/user-attachments/assets/9ce45b7c-b3a6-49c2-9e64-d5f5a8a82c86)
+![github_metabspace](https://github.com/user-attachments/assets/e60b542f-bfd9-4039-8c83-55d0fae4fbf0)
+
 
 
 ## Code
@@ -34,6 +35,6 @@ Most data is available in Zenodo (https://doi.org/10.5281/zenodo.14506250). For 
 
 ## Literature
 
-For the article Peets et al. 202*, metabolomics data from the Earth Microbiome Project was used:
+For the article "*Chemistry-based vectors map the chemical space of natural biomes from untargeted mass spectrometry data*", metabolomics data from the Earth Microbiome Project was used: (https://earthmicrobiome.org)
 
 *Shaffer, J.P., Nothias, LF., Thompson, L.R. et al. Standardized multi-omics of Earth’s microbiomes reveals microbial and metabolite diversity. Nat Microbiol 7, 2128–2150 (2022). https://doi.org/10.1038/s41564-022-01266-x*
