@@ -35,6 +35,6 @@ Most data is available in Zenodo (https://doi.org/10.5281/zenodo.14506250). For 
 
 ## Literature
 
-For the article "*Chemistry-based vectors map the chemical space of natural biomes from untargeted mass spectrometry data*", metabolomics data from the Earth Microbiome Project was used: (https://earthmicrobiome.org)
+For the article "*Chemical characteristics vectors map the chemical space of natural biomes from untargeted mass spectrometry data*", metabolomics data from the Earth Microbiome Project was used: (https://earthmicrobiome.org)
 
 *Shaffer, J.P., Nothias, LF., Thompson, L.R. et al. Standardized multi-omics of Earth’s microbiomes reveals microbial and metabolite diversity. Nat Microbiol 7, 2128–2150 (2022). https://doi.org/10.1038/s41564-022-01266-x*
