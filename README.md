@@ -1,7 +1,7 @@
 # MetabSpace
 
 This MetabSpace directory contains codes, data, and instructions for using the "chemical characteristics vector" approach for capturing the chemical space of biomes and mapping them using LC-MS/MS data. 
-The preprint for the main article related to MetabSpace is "*Chemistry-based vectors map the chemical space of natural biomes from untargeted mass spectrometry data*", https://doi.org/10.1101/2025.01.22.634253
+The preprint for the main article related to MetabSpace is "*Chemical characteristics vectors map the chemical space of natural biomes from untargeted mass spectrometry data*", https://doi.org/10.1186/s13321-025-01031-2
 
 Data for the article is in Zenodo: (https://doi.org/10.5281/zenodo.14506250)
 
