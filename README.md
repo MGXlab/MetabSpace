@@ -28,10 +28,16 @@ CCV_article.R  -> Codes for gathering SIRIUS chemical characteristics and calcul
 CCV_article_figures.R  -> Code for creating Figures for the article and re-analyzing the data. Uses data from Zenodo.
 
 Functions_SIRIUS_DataAnalysis.R -> gathers functions to get data from SIRIUS calculations. Getting annotation tables and confidence scores into one table. 
+Function_IntensityWeightedCCV.R -> Adjusted code from the first work to add intensity weight. This approach take into account the compounds amount in sample. Enables better comparison when same compounds are present in different samples, but their abundance is different.
 
 ## Data
 
 Most data is available in Zenodo (https://doi.org/10.5281/zenodo.14506250). For additional data, please contact Pilleriin Peets (pilleriin.peets@gmail.com, pilleriin.peets@ut.ee)
+
+## SIRIUS fingerprints and canopus vectors
+
+For SIRIUS5 all molecular fingerprints and canopus classes can be written out to folders and gathered using "Functions_SIRIUS_DataAnalysis.R" code. 
+For SIRIUS6 this is not anymore possible. To get the molecular fingerprints and canopus vectors, these must be extracted from API. 
 
 ## Literature
 
